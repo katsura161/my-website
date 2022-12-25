@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+    function passvalues()
+    {
+        var firstname=document.getElementById("txt").value;
+        localStorage.setItem("testvalue",firstname);
+        return false;
+    }
+</script>
+</head>
+<body>
+<center>
+<h1>MY WEBSITE </h1>
+<h2>MADE BY : OSAMA ALJABRI </h2>
+<hr/>
+<form action="Untitled-2.html">
+  <input type="text" id="txt"/>
+  <input type="submit" value="click" onclick="passvalues();"/>
+  </form>
+</center>
+</body>
+</html>
+
